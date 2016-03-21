@@ -5,4 +5,6 @@ node {
    // Checkout code from repository
    checkout scm
 
+   // build
+   bat '"C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat" && cl main.cpp'
 }
